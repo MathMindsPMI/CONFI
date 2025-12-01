@@ -9,7 +9,14 @@ body{
   color:#fff; display:flex; flex-direction:column; align-items:center; min-height:100vh; padding:20px;
 }
 .top{display:flex;flex-direction:column;align-items:center;gap:6px}
-.logo{width:220px;filter:drop-shadow(0 6px 14px rgba(0,0,0,0.6))}
+.logo {
+    width: 220px;
+    display: block;
+    margin: 15px auto 5px auto;
+    filter: drop-shadow(0 0 12px #00eaff);
+    border-radius: 14px;
+}
+
 h1{margin:0;font-size:40px;letter-spacing:2px;background:linear-gradient(90deg,var(--rose),var(--cyan),var(--purple));-webkit-background-clip:text;-webkit-text-fill-color:transparent}
 .main{width:100%;max-width:980px;margin-top:14px;display:flex;flex-direction:column;align-items:center;gap:18px}
 .controls{display:flex;gap:12px;align-items:center}
